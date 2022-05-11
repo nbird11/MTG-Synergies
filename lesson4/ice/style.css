@@ -1,0 +1,61 @@
+body {
+    background-color: #FCA6C9;
+  
+}
+
+.pageContent {
+    text-align: center;
+    width: 50%;
+    max-width: 400px;
+    /* width: 450px; */
+    margin: 0 auto;
+}
+
+h1:hover {
+    color: black;
+}
+
+.pageContent ol {
+    text-align: left;
+    font-weight: bold;
+}
+
+.pageContent ol li {
+    line-height: 28px;
+}
+
+.coolFont {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.white{
+    color: white;
+}
+
+img {
+    width: 150px
+}
+
+.quotation {
+    margin: 20px 65px;
+    font-size: 25px;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.quotation::before {
+    content: '❝';
+    margin-right: 2px;
+}
+
+.quotation::after {
+    content: '❞';
+    margin-left: 2px;
+    
+}
+
+footer p {
+    font-size: 80%;
+    margin: 3px;
+}
+
