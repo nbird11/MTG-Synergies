@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Tapestry&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,10 +8,23 @@
 
 body {
     background-color: #fcfbfb;
+    font-family: Merriweather, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 header {
     background-color: #4f614c;
+    text-align: left;
 }
 
 .logo {
@@ -20,6 +35,7 @@ nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -29,10 +45,14 @@ nav a:hover {
 
 .home-title {
     color: rgb(23, 23, 23);
+    font-family: Tapestry, cursive, serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 h4 {
@@ -47,22 +67,39 @@ h4 {
     text-align: center;
 }
 
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #23BE6E;
+}
+
 .msg {
     background-color: #4f614c;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color:#fcfbfb;
+    font-family: Tapestry, cursive, serif;
 }
 
 .msg p {
     color:#c3dbe0;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 .book, .join {
     background-color: #FFE45C;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -78,6 +115,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color:#848C8E;
@@ -85,6 +126,8 @@ main section {
 
 footer {
     background-color: #4f614c;
+    padding: 25px;
+    margin-top: 200px;
 }
 
 footer h3 {
@@ -102,4 +145,8 @@ footer h3 a:hover {
 
 footer a:hover {
     color:#ffffff;
+}
+
+footer .social img {
+    padding-top: 15px;
 }

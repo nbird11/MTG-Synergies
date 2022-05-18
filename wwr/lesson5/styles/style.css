@@ -1,0 +1,45 @@
+
+
+.top {
+    margin: 0 30%;
+    text-align: center;
+    background-color: red;
+    /* width: 500px; */
+    padding: 50px 80px;
+}
+
+.mid {
+    margin: 0 20%;
+    text-align: center;
+    background-color: blue;
+    /* width: 500px; */
+    padding: 65px 150px;
+}
+
+.bottom {
+    margin: 0 10%;
+    text-align: center;
+    background-color: green;
+    /* width: 500px; */
+    padding: 80px 220px;
+}
+
+.space {
+    margin: 100px auto;
+}
+
+.box {
+    text-align: center;
+    border: 3px solid black;
+    padding: 50px;
+    margin: 0px 10%;
+    display: inline-block;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
