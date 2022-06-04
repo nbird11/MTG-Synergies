@@ -1,10 +1,10 @@
 .contents {
     display: grid;
     gap: 0px;
-    column-gap: 0px;
     grid-template-columns: repeat(10,1fr);
     grid-template-rows: repeat(6,1fr);
     max-width: 1000px;
+    margin: 0 auto;
 }
 .green-square{
     width: 100px;
