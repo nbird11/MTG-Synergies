@@ -102,6 +102,7 @@ h4 {
     display: grid;
     grid-template-columns: repeat(10,1fr);
 }
+
 .card-img {
     border: 10px solid #23BE6E;
     width: 20vw;
@@ -227,6 +228,62 @@ footer a:hover {
 footer .social img {
     padding-top: 15px;
 }
+
+/* CSS for faq page */
+.head-box {
+    background-color: #848C8E;
+    border: 1px solid black;
+    border-radius: 30px;
+    max-width: 350px;
+    padding: 0 10px;
+    margin: 50px auto;
+    display: inline-block;
+}
+
+.background{
+    height: 725px;
+    width: 90vw;
+    margin: 0 auto;
+    background-color:#848C8E;
+}
+
+.q-a-contents {
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10,1fr)
+}
+
+.q-a-contents .background{
+    grid-column: 1/11;
+    grid-row: 1/11;
+}
+
+#bring{
+    height: 1300px;
+}
+#fun{
+    height: 830px;
+}
+#book{
+    height: 500px;
+}
+
+ .q-a-contents img{
+     height: 200px;
+     width: 300px;
+     grid-column: 2/4;
+     grid-row: 2/4;
+ }
+
+ .question{
+     grid-column: 5/10;
+     grid-row: 2/3;
+ }
+
+ .answer{
+     grid-column: 5/10;
+     grid-row: 3/10;
+ }
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
