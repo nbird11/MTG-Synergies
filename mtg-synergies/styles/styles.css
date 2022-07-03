@@ -130,11 +130,8 @@ footer nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
 */
-footer nav a h3:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-}
-footer nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
+footer nav a{
+    margin: 0 50px;
+    font-size: larger;
+    font-weight: bold;
 }
