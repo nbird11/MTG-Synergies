@@ -1,0 +1,111 @@
+:root {
+    --primary-color: #4CA6BC   ;
+    --secondary-color: #292929 ;
+    --accent1-color: #E78300;
+    --accent2-color: #8B20B2;
+  
+    --heading-font: 'VT323', 'Syne Mono', monospace;
+    --paragraph-font: 'Courier Prime', 'Noto Sans Mono', monospace;
+
+    --headline-color-on-white: #4CA6BC;  /* headlines on a white background */ 
+    --headline-color-on-color: white; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #4CA6BC; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #4CA6BC  ;
+    --nav-link-color: #292929;
+    --nav-background-color: #E78300;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #4CA6BC;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+}
+p {
+    font-family: var(--paragraph-font);
+    color: var(--paragraph-color);
+    padding: 1em;
+}
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: var(--nav-background-color);
+    text-align: left;
+    display: grid;
+    grid-template-columns: 120px auto;
+}
+.logo {
+    width: 100px;
+    padding: 10px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+}
+nav  {
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    padding:1em;
+    min-width: 150px;
+    text-decoration: none;
+    padding: 10px;
+    align-self: center;
+    font-family: var(--heading-font);
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+.page-heading{
+    max-width: 700px;
+    margin: 20px auto;
+}
+.headline{
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+.explanation{
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    text-align-last: center;
+}
+
+.commander{
+    width: 350px;
+}
+.card{
+    width: 300px;
+}
+
+
+
+footer {
+    background-color: var(--nav-background-color);
+    padding: 25px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer nav a h3{
+    color: var(--nav-link-color);
+    padding: 0 50px;
+}
+footer nav a{
+    margin: 0 50px;
+    font-size: larger;
+    font-weight: bold;
+}
