@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #4CA6BC   ;
+    --primary-color: #3a7e8f   ;
     --secondary-color: #292929 ;
     --accent1-color: #E78300;
     --accent2-color: #8B20B2;
@@ -7,15 +7,15 @@
     --heading-font: 'VT323', 'Syne Mono', monospace;
     --paragraph-font: 'Courier Prime', 'Noto Sans Mono', monospace;
 
-    --headline-color-on-white: #4CA6BC;  /* headlines on a white background */ 
+    --headline-color-on-white: #3a7e8f;  /* headlines on a white background */ 
     --headline-color-on-color: white; /* headlines on a colored background */ 
-    --paragraph-color-on-white: #4CA6BC; /* paragraph text on a white background */ 
+    --paragraph-color-on-white: #3a7e8f; /* paragraph text on a white background */ 
     --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-    --paragraph-background-color: #4CA6BC  ;
+    --paragraph-background-color: #3a7e8f  ;
     --nav-link-color: #292929;
     --nav-background-color: #E78300;
     --nav-hover-link-color: white;
-    --nav-hover-background-color: #4CA6BC;
+    --nav-hover-background-color: #3a7e8f;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
